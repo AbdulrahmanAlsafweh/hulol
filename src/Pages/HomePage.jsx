@@ -13,7 +13,7 @@ export default function HomePage(){
         <NavbarPage />
         <AboutUsPage />
         <HelpPage />
-        <Whatsapp />
+        {/* <Whatsapp /> */}
         <ContactUs />
         <LocationPage />
         {/* <FooterPage /> */}

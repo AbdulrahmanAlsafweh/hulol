@@ -7,6 +7,7 @@ import HomePage from "./Pages/HomePage";
 import AboutUsPage from "./Pages/AboutUsPage";
 import FooterPage from "./components/Footer";
 import OurProducts from "./Pages/OurProductsPage";
+import Whatsapp from "./components/whatsapp";
 // import additional pages here if needed
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -21,6 +22,7 @@ root.render(
         {/* <Route path="/about" element={<AboutUsPage />} /> */}
         {/* <Route path="/contact" element={<ContactUs />} /> */}
       </Routes>
+      <Whatsapp />
       <FooterPage />
     </div>
   </Router>

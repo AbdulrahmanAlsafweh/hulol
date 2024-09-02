@@ -67,14 +67,16 @@ export default function AboutUsNavbar(){
           ></label>
           <ul className="menu bg-primary   min-h-full w-1/2 flex items-center text-lg text-white font-cairo p-4">
             {/* Sidebar content here */}
-            <li>
-              <a>الرئيسية</a>
-            </li>
-            <li>
-              <a>حول حلول</a>
+            <li className="hover:text-white">
+              <Link to="/">الصفحة الرئيسية</Link>
             </li>{" "}
-            <li>
-              <a>منتجاتنا</a>
+            <li className="hover:text-white">
+              {/* <Link to={"./OurVision"}>حول حلول</Link> */}
+              <Link to="/aboutUs">حول حلول</Link>
+              {/* <a href="./OurVision"> حول حلول</a> */}
+            </li>{" "}
+            <li className="hover:text-white">
+              <Link to="/OurProducts">منتجاتنا</Link>
             </li>
           </ul>
           <img
